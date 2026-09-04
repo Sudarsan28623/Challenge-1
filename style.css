@@ -18,14 +18,26 @@ header img{
 .main{
     color: sienna;
 }
-.part{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 30px;
-    text-align: center;
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+caption{
+    text-align: left;
+    margin-bottom: 10px;
+}
+th,td{
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+td{
+    color: sienna;
+    font-weight: bold;
 }
 .header{
-    margin: 30px;
+    max-width: 900px;
+    margin: 30px auto;
     background-color: white;
     padding: 30px;
     border-radius: 20px;
@@ -37,13 +49,6 @@ header img{
         border-radius: 0;
     }
     header img{
-        width: 100%;
-    }
-    .part{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        gap: 30px;
-        text-align: center;
         width: 100%;
     }
 }
